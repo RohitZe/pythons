@@ -19,13 +19,30 @@
 user={12,34,56,7,8,0}
 ans={12,7,8,99,88,77}
 
-marks=0
-neg=1
-for x in user:
-    if (x in ans):
-        marks=marks+4
-    else:
-        marks=marks-neg
+# marks=0
+# neg=1
+# for x in user:
+#     if (x in ans):
+#         marks=marks+4
+#     else:
+#         marks=marks-neg
 
-print(marks)
+# print(marks)
 
+
+# union
+# 12 34,7,56
+
+print(user | ans)
+
+# intersection
+# common values
+
+print(user & ans)
+
+# subtract operation
+
+# A-B
+a={10,20,30,40}
+b={40,78,21,10}
+print(a-b)
