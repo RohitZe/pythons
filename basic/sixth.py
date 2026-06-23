@@ -150,20 +150,20 @@ while(i<100):
 # print all even numbers between 1 to 20 2,4,6,8...20
 # print all odd number between 1 to 20 1,3,5,7,....19
 
-i=1
-while(i<=10):
-    print(i)
-    i=i+1
+# i=1
+# while(i<=10):
+#     print(i)
+#     i=i+1
 
-i=2
-while(i<=20):
-    print(i)
-    i=i+2
+# i=2
+# while(i<=20):
+#     print(i)
+#     i=i+2
 
-i=1
-while(i<=20):
-    print(i)
-    i=i+2
+# i=1
+# while(i<=20):
+#     print(i)
+#     i=i+2
 
 
 
